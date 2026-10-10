@@ -361,7 +361,7 @@ Näin 7–5–3-asteikko antaa tiiviille ryhmitykselle paremmat pisteet.
 
 ## Kehitys ja tekniset tiedot
 
-* **Pääkoodi ja algoritmi:** Pääosa (ohjelman varsinainen toiminnallisuus lähdekoodista "normaaliolosuhteissa" ajettaessa) on kirjoitettu ennen ChatGPT:n julkaisua ilman tekoälyn apua. Tekoälyä on käytetty exe-paketointiin ja sen vaatimaan koodiin (`resource_path` kutsuineen) sekä tämän README:n kirjoittamisen apuna.
+* **Pääkoodi ja algoritmi:** Pääosa (ohjelman varsinainen toiminnallisuus lähdekoodista "normaaliolosuhteissa" Windowsilla ajettaessa) on kirjoitettu ennen ChatGPT:n julkaisua ilman tekoälyn apua. Tekoälyä on käytetty exe-paketointiin ja sen vaatimaan koodiin (`resource_path` kutsuineen) sekä tämän README:n kirjoittamisen apuna.
 * **Resurssien hallinta:** Ohjelma hyödyntää `sys._MEIPASS`-mekanismia `.exe`-tiedostojen kuvakkeen ja resurssipolkujen määrittämiseen, mikä mahdollistaa yhteensopivuuden PyInstallerin kanssa.
 * **Emojit:** `SurrogatePair.py` perustuu [StackOverflow-vastaukseen](http://stackoverflow.com/questions/40222971/python-find-equivalent-surrogate-pair-from-non-bmp-unicode-char/40223212#40223212) sekä samalla sivulla julkaistuun täydennykseen, jonka ansiosta emojit toimivat myös Python 3.7:ssä ja uudemmissa.
 * **Emojien rajoitukset Python 3.6:ssa ja vanhemmissa** (koskee myös Windows XP -exeä):
